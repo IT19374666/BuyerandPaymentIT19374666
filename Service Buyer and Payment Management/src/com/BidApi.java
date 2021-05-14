@@ -54,8 +54,7 @@ public class BidApi extends HttpServlet {
 		// TODO Auto-generated method stub
 		Map paras = getParasMap(request);
 		
-		System.out.println(paras.get("hidBidIDUpdate").toString());
-		String output = bidObj.updateBids(paras.get("hidBidIDUpdate").toString(),
+		String output = bidObj.updateBids(paras.get("hidBidIDSave").toString(),
 				 		paras.get("amount").toString(),
 				 		paras.get("sConditions").toString(),
 				 		paras.get("dueDate").toString());
