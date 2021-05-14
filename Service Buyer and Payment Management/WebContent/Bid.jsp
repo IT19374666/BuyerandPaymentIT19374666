@@ -8,7 +8,7 @@
 <title>Bid Management</title>
 <link rel="stylesheet" href="Views/bootstrap.min.css">
 
-<script src="/Components/jquery-3.6.0.min.js"></script>
+<script src="Components/jquery-3.6.0.min.js"></script>
 <script src="jquery-3.6.0.min.js"></script>
 <script src="Components/bids.js"></script>
 
